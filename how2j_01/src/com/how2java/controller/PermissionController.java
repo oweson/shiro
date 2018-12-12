@@ -1,0 +1,66 @@
+package com.how2java.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.how2java.pojo.Permission;
+import com.how2java.service.PermissionService;
+
+@Controller
+@RequestMapping("config")
+public class PermissionController {
+    @Autowired
+    PermissionService permissionService;
+
+    /**
+     * 1 查所有
+     */
+    @RequestMapping("listPermission")
+    public String list(Model model) {
+        List<Permission> ps = permissionService.list();
+        model.addAttribute("ps", ps);
+        return "listPermission";
+    }
+
+    /**
+     * 2 编辑
+     */
+    @RequestMapping("editPermission")
+    public String list(Model model, long id) {
+        Permission permission = permissionService.get(id);
+        model.addAttribute("permission", permission);
+        return "editPermission";
+    }
+
+    /**
+     * 3 更新
+     */
+    @RequestMapping("updatePermission")
+    public String update(Permission permission) {
+
+        permissionService.update(permission);
+        return "redirect:listPermission";
+    }
+
+    /**
+     * 4 添加
+     */
+    @RequestMapping("addPermission")
+    public String list(Model model, Permission permission) {
+        System.out.println(permission.getName());
+        System.out.println(permission.getDesc_());
+        permissionService.add(permission);
+        return "redirect:listPermission";
+    }
+
+    @RequestMapping("deletePermission")
+    public String delete(Model model, long id) {
+        permissionService.delete(id);
+        return "redirect:listPermission";
+    }
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/guigu_01/guigu_01.iml" filepath="$PROJECT_DIR$/guigu_01/guigu_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guigu_02/guigu_02.iml" filepath="$PROJECT_DIR$/guigu_02/guigu_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima_01/heima_01.iml" filepath="$PROJECT_DIR$/heima_01/heima_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heima_02/heima_02.iml" filepath="$PROJECT_DIR$/heima_02/heima_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/how2j_01/how2j_01.iml" filepath="$PROJECT_DIR$/how2j_01/how2j_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/how2j_02/how2j_02.iml" filepath="$PROJECT_DIR$/how2j_02/how2j_02.iml" />
+    </modules>
+  </component>
+</project>
