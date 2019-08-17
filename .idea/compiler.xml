@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="how2j_02" />
+        <module name="spring-boot-shiro" />
+        <module name="springboot-shiro-vue" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

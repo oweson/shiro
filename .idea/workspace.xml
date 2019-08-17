@@ -2,67 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a0a1be-931f-4f0e-ba93-ce10032e6dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_01/src/guigu/realm/CustomRealmMd5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_01/src/shiro.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/guigu_01_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/guigu_02_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/heima_01_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/heima_02_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/how2j_01_war_exploded.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/config/MyShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/sevice/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/sevice/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/web/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/database/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoDel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib__4_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib__5_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib__6_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/guigu_01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/cn/itcast/shiro/authentication/AuthenticationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/cn/itcast/shiro/authentication/MD5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/guigu/authentication/MD5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/cn/itcast/shiro/realm/CustomRealmMd5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/cn/itcast/shiro/realm/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/guigu/realm/MyRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/com/atguigu/shiro/hello/Quickstart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/shiro-first-heima.ini" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/shiro-first-heima.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/shiro-myrealm.ini" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/shiro-myrealm.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/shiro-realm-md5.ini" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/shiro-realm-md5.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/shiro-realm.ini" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/shiro-realm.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/src/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/resources/shiro.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_01/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/guigu_02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/factory/FilterChainDefinitionMapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/FilterChainDefinitionMapBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/handlers/ShiroHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/realms/SecondRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/SecondRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/realms/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/ShiroRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/realms/TestRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/TestRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/services/ShiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/ShiroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/utils/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/utils/MySessionDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/utils/SerializableUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/SerializableUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/utils/shiro2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/src/ehcache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/WEB-INF/spring-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/unauthorized.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guigu_02/web/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/how2j_02/how2j_02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/how2j_02/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-shiro/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-shiro-vue/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,44 +47,67 @@
     <session id="-69953595">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
           <entry key="ini" value="2" />
-          <entry key="java" value="12" />
+          <entry key="java" value="52" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="52" />
           <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ini" value="33" />
-          <entry key="java" value="23" />
+          <entry key="java" value="413" />
+          <entry key="txt" value="3" />
+          <entry key="yml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="JAVA" value="413" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="YAML" value="40" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/config/system/DefaultView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="146">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/controller/ArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-531">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,6 +116,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -147,6 +140,20 @@
         <option value="$PROJECT_DIR$/heima_01/src/guigu/authentication/AuthenticationTest.java" />
         <option value="$PROJECT_DIR$/heima_01/src/guigu/realm/CustomRealmMd5.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/sevice/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/sevice/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/web/HomeController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/web/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/SysPermission.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/SysRole.java" />
+        <option value="$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/config/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/springboot-shiro-vue/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro-vue/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -179,6 +186,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -189,15 +197,125 @@
               <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-shiro-vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -206,16 +324,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\a_ssm\shiro\heima_01\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\a_ssm\shiro\spring-boot-shiro\src\main\java\com\example\springbootshiro" />
+      <recent name="E:\git\a_ssm\shiro\spring-boot-shiro\src\main\resources" />
       <recent name="E:\git\a_ssm\shiro\heima_01\src" />
       <recent name="E:\git\a_ssm\shiro\heima_01\src\cn\itcast\shiro\utils" />
       <recent name="E:\git\a_ssm\shiro\heima_01\web\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.heeexy.example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\a_ssm\shiro\heima_01\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +353,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Quickstart">
+  <component name="RunManager" selected="Application.MyApplication">
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heeexy.example.MyApplication" />
+      <module name="springboot-shiro-vue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heeexy.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guigu.Quickstart" />
       <module name="shiro" />
@@ -264,6 +401,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-shiro-vue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heeexy.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heeexy.example.MyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootshiro.SpringBootShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootShiroVueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-shiro-vue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootshirovue.SpringbootShiroVueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -275,9 +439,15 @@
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Application.Quickstart" />
+      <item itemvalue="Spring Boot.SpringBootShiroApplication" />
+      <item itemvalue="Spring Boot.SpringbootShiroVueApplication" />
+      <item itemvalue="Spring Boot.MyApplication" />
+      <item itemvalue="Application.MyApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyApplication" />
+        <item itemvalue="Spring Boot.MyApplication" />
         <item itemvalue="Application.Quickstart" />
       </list>
     </recent_temporary>
@@ -292,19 +462,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566016318580</updated>
-      <workItem from="1566016320254" duration="1220000" />
+      <workItem from="1566016320254" duration="2052000" />
+      <workItem from="1566018448227" duration="1196000" />
+      <workItem from="1566032356384" duration="6851000" />
     </task>
+    <task id="LOCAL-00001" summary="优化">
+      <created>1566017571330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566017571330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1220000" />
+    <option name="totallyTimeSpent" value="10099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Learn" />
-      <window_info id="Alibaba Cloud Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.19878142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.25494674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -313,20 +491,21 @@
       <window_info id="Favorites" order="6" sideWeight="0.50286806" side_tool="true" weight="0.24432677" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="JRebel" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info id="Learn" order="9" />
+      <window_info id="Alibaba Cloud Explorer" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4996192" visible="true" weight="0.13396226" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83625287" weight="0.079245284" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4996192" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8348554" visible="true" weight="0.08255159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" sideWeight="0.49924356" weight="0.32931036" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49352628" weight="0.16981132" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49315068" weight="0.16885553" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.8789713" weight="0.08275862" />
       <window_info anchor="bottom" id="CheckStyle" order="11" sideWeight="0.4977307" weight="0.0120689655" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003808" side_tool="true" visible="true" weight="0.13396226" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.16514459" side_tool="true" visible="true" weight="0.08255159" />
       <window_info anchor="bottom" id="Statistic" order="13" sideWeight="0.83625287" weight="0.06981132" />
       <window_info anchor="bottom" id="Run with VisualVM" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" sideWeight="0.49924356" weight="0.32931036" />
@@ -343,7 +522,7 @@
       <window_info anchor="bottom" id="MyBatis Sql Log" order="26" />
       <window_info anchor="bottom" id="Tail" order="27" />
       <window_info anchor="bottom" id="Problems" order="28" sideWeight="0.49924356" weight="0.32931036" />
-      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="29" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,6 +537,7 @@
       <window_info anchor="right" id="RestServices" order="11" />
       <window_info anchor="right" id="Redis Servers" order="12" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="13" side_tool="true" visible="true" weight="0.031013615" />
+      <window_info anchor="right" id="Key Promoter X" order="14" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,10 +546,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/utils/Dog.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/guigu_02/src/com/atguigu/shiro/utils/Dog.java" />
     <entry file="file://$PROJECT_DIR$/heima_01/resources/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
@@ -384,37 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/MySessionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/ShiroHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_01/src/guigu/authentication/AuthenticationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_01/src/guigu/Quickstart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/MySessionDao.java" />
+    <entry file="file://$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/utils/ShiroHandler.java" />
+    <entry file="file://$PROJECT_DIR$/heima_01/src/guigu/authentication/AuthenticationTest.java" />
+    <entry file="file://$PROJECT_DIR$/heima_01/src/guigu/Quickstart.java" />
     <entry file="file://$PROJECT_DIR$/heima_01/src/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-571" />
@@ -429,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-186">
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,8 +612,281 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="349">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_01/src/cn/itcast/shiro/authentication/MD5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/sevice/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/sevice/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/database/import.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="15" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/web/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/web/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/model/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/SpringBootShiroApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how2j_01/src/com/how2java/realm/DatabaseRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-635">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how2j_01/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-917">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/example/springbootshiro/config/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/example/springbootshirovue/SpringbootShiroVueApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/config/exception/CommonJsonException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/SpringbootShiroVueApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/util/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/util/constants/ErrorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/util/model/One2Many.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/util/StringTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/config/shiro/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/config/shiro/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/config/system/DefaultView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-shiro-vue/src/main/java/com/heeexy/example/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
